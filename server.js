@@ -4,5 +4,5 @@ import conectionDataBase  from './src/database/index.js';
 const port = 3015;
 app.listen(port,() => {
     conectionDataBase()
-    console.log(`running in the port ${port}`)
+    console.log(`running in the port http://localhost:${port}`)
 });
